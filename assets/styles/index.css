@@ -104,6 +104,24 @@ ol {
   color: var(--color-green) !important;
 }
 
+.nav-link.active {
+  color: #ffc107;
+  font-weight: 700;
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 2px;
+  background-color: #ffc107;
+  border-radius: 2px;
+}
+
 .navbar .form-control {
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.08);

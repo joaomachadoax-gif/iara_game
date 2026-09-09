@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // Criar elemento de feedback (mensagem abaixo do campo)
+  // Cria elemento de feedback (mensagem abaixo do campo)
   let feedback = searchInput.parentElement.querySelector('.form-text');
 
   if (!feedback) {
@@ -55,11 +55,36 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       feedback.textContent = 'Buscando por "' + value + '"...';
       feedback.classList.remove('text-warning');
-      feedback.classList.add('text-success'); // <-- mensagem verde
+      feedback.classList.add('text-success');
       searchInput.classList.remove('is-invalid');
       searchInput.classList.add('is-valid');
     }
   });
 
   console.log('Validação da busca inicializada com sucesso.');
+})();
+
+// Problema3 - Usuário não identifica em qual seção do site está
+// Solução: destacar automaticamente o link ativo na navbar com base na URL
+
+(function () {
+  const currentPath = window.location.pathname;
+
+  // Seleciona todos os links da navbar
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+
+    // Ignora links sem href ou com "#"
+    if (!href || href === '#') return;
+
+    // Verifica se o href corresponde ao caminho atual
+    if (currentPath.endsWith(href)) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+  console.log('Destaque do link ativo na navbar atualizado com sucesso.');
 })();
