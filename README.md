@@ -90,3 +90,27 @@ Durante o desenvolvimento, aplicamos boas práticas de acessibilidade para garan
 - Textos alternativos para imagens
 - Fontes legíveis
 - Estrutura clara de conteúdo
+
+## FUNCIONALIDADES IMPLEMENTADAS COM JAVASCRIPT
+
+###  Validação em tempo real no campo de busca
+O campo de busca não oferecia nenhum feedback enquanto o usuário digitava, gerando dúvida sobre quantos caracteres eram necessários ou se a busca estava "funcionando". Solução: O JavaScript valida o campo de busca em tempo real e exibe mensagens de erro ou confirmação:
+
+0 caracteres: sem mensagem
+1-2 caracteres: mensagem de aviso ("Digite pelo menos 3 caracteres para buscar")
+3+ caracteres: mensagem de confirmação ("Buscando por....) e campo com borda verde Como visualizar:
+Na navbar, clique no campo de "Buscar jogos".
+Digite 1 ou 2 caracteres e veja a mensagem de aviso e a borda vermelha.
+Digite 3 ou mais caracteres e veja a mensagem de confirmação e a borda verde.
+
+### Feedback ao clicar no botão "Entrar"
+O botão "Entrar" não apresentava nenhuma reação ao clique, pois a funcionalidade de login ainda não foi implementada, gerando dúvida no usuário. Solução: Ao clicar em "Entrar", um modal informativo é exibido, explicando que a funcionalidade de login está em desenvolvimento. Como visualizar:
+
+Na navbar, clique no botão "Entrar".
+Um modal com título "Login em desenvolvimento" será exibido, explicando que a funcionalidade será implementada no futuro.
+
+### Destaque do link ativo na navbar
+O usuário não conseguia identificar em qual seção do site estava navegando, pois todos os links da navbar tinham o mesmo visual. Solução: O JavaScript destaca automaticamente o link da navbar correspondente á página atual, adicionando a classe "active". O CSS estiliza esse link para ter uma cor diferente, negrito e sublinhado discreto. Como visualizar:
+
+Abra o site e navegue entre as páginas (Início e Suporte), pois são as únicas com navbar implementada atualmente.
+Observe que o link correspondente á página atual fica destacado na navbar.
