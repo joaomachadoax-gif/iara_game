@@ -93,7 +93,7 @@ Durante o desenvolvimento, aplicamos boas práticas de acessibilidade para garan
 - Fontes legíveis
 - Estrutura clara de conteúdo
 
-### FUNCIONALIADES IMPLEMENTADAS COM JAVASCRIPT
+### FUNCIONALIDADES IMPLEMENTADAS COM JAVASCRIPT
 
 ## Validação em tempo real no campo de busca
 O campo de busca não oferecia nenhum feedback enquanto o usuário digitava, gerando dúvida sobre quantos caracteres eram necessários ou se a busca estava "funcionando".
