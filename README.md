@@ -95,7 +95,7 @@ Durante o desenvolvimento, aplicamos boas práticas de acessibilidade para garan
 
 ### FUNCIONALIADES IMPLEMENTADAS COM JAVASCRIPT
 
-- Validação em tempo real no campo de busca
+## Validação em tempo real no campo de busca
 O campo de busca não oferecia nenhum feedback enquanto o usuário digitava, gerando dúvida sobre quantos caracteres eram necessários ou se a busca estava "funcionando".
 Solução:
 O JavaScript valida o campo de busca em tempo real e exibe mensagens de erro ou confirmação:
@@ -107,7 +107,7 @@ Como visualizar:
 - Digite 1 ou 2 caracteres e veja a mensagem de aviso e a borda vermelha.
 - Digite 3 ou mais caracteres e veja a mensagem de confirmação e a borda verde.
 
-- Feedback ao clicar no botão "Entrar"
+## Feedback ao clicar no botão "Entrar"
 O botão "Entrar" não apresentava nenhuma reação ao clique, pois a funcionalidade de login ainda não foi implementada, gerando dúvida no usuário.
 Solução:
 Ao clicar em "Entrar", um modal informativo é exibido, explicando que a funcionalidade de login está em desenvolvimento.
@@ -115,7 +115,7 @@ Como visualizar:
 - Na navbar, clique no botão "Entrar".
 - Um modal com título "Login em desenvolvimento" será exibido, explicando que a funcionalidade será implementada no futuro.
 
-- Destaque do link ativo na navbar
+## Destaque do link ativo na navbar
 O usuário não conseguia identificar em qual seção do site estava navegando, pois todos os links da navbar tinham o mesmo visual.
 Solução:
 O JavaScript destaca automaticamente o link da navbar correspondente á página atual, adicionando a classe "active". O CSS estiliza esse link para ter uma cor diferente, negrito e sublinhado discreto.
