@@ -17,7 +17,7 @@ A identidade visual da Iara Games foi criada para representar a conexão entre t
 
 O conceito visual combina elementos modernos com referências culturais brasileiras, criando uma marca jovem, dinâmica e facilmente reconhecível.
 
-URL:
+URL: https://iara-game.vercel.app/
 
 ### LOGOTIPO
 
