@@ -1,0 +1,26 @@
+{
+  "name": "iara-games",
+  "version": "1.0.0",
+  "description": "![Logo](assets/images/logo-iara-games.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaomachadoax-gif/iara_game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joaomachadoax-gif/iara_game/issues"
+  },
+  "homepage": "https://github.com/joaomachadoax-gif/iara_game#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "formik": "^2.4.9",
+    "yup": "^1.7.1"
+  }
+}
