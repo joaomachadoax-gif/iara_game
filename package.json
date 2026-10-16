@@ -4,7 +4,9 @@
   "description": "![Logo](assets/images/logo-iara-games.png)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,12 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "formik": "^2.4.9",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
   }
 }
