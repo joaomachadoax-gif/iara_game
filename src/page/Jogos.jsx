@@ -8,6 +8,14 @@ export default function Jogos() {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-12">
+              <a
+                href="/"
+                className="btn btn-link text-decoration-none jogos-page-back mb-4 d-inline-flex align-items-center gap-2"
+              >
+                <i className="bi bi-arrow-left"></i>
+                <span>Voltar para a home</span>
+              </a>
+
               <h1 className="display-4 fw-bold text-light">
                 Todos os Jogos
               </h1>
