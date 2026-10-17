@@ -16,7 +16,7 @@ export default function Navbar() {
           href="#"
         >
           <img
-            src="/assets/images/logo-iara-games.svg"
+            src="/src/images/logo-iara-games.svg"
             alt="Logo da Iara Games"
             width="59"
             height="49"

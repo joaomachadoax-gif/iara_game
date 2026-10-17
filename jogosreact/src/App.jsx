@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import CarrinhoOffcanvas from './components/CarrinhoOffcanvas';
 import DivulgarJogo from './pages/DivulgarJogo';
 import Jogos from './page/Jogos';
+import 'src/assets/images/Logo.png';
 
 function App() {
   return (
