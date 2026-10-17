@@ -21,11 +21,12 @@
   },
   "homepage": "https://github.com/joaomachadoax-gif/iara_game#readme",
   "dependencies": {
-    "bootstrap": "^5.3.8",
-    "formik": "^2.4.9",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "yup": "^1.7.1"
+    "formik": "^2.4.9",
+    "yup": "^1.7.1",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.1.2",
