@@ -1,5 +1,6 @@
 import JogoCard from '../components/JogoCard';
 import { jogos } from '../data/jogos';
+import '../images/image-hellclock.jpg';
 
 export default function Jogos() {
   return (
