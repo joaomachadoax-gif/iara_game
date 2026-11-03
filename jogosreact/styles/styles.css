@@ -278,7 +278,7 @@ ol {
     width: 100%;
   }
 }
-/* Fim Area Navbar */
+
 
 /* Area Carrinho */
 .carrinho-offcanvas {
@@ -427,6 +427,40 @@ ol {
   transform: translateY(0);
 }
 /* Fim Area Carrinho */
+.checkout-modal {
+  background-color: #101820;
+  color: #f8f9fa;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.checkout-modal .form-label {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.checkout-modal .form-control {
+  background-color: #1a2430;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #f8f9fa;
+}
+
+.checkout-modal .form-control:focus {
+  background-color: #1a2430;
+  color: #f8f9fa;
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.checkout-erro {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+}
+
+.compra-sucesso-icone {
+  font-size: 3rem;
+  color: #ffc107;
+}
+/* Fim Area Navbar */
 
 /* ========== JOGOS PAGE ========== */
 .jogos-page {
