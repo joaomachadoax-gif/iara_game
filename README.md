@@ -124,3 +124,8 @@ Como visualizar:
 - Abra o site e navegue entre as páginas (Início e Suporte), pois são as únicas com navbar implementada atualmente.
 - Observe que o link correspondente á página atual fica destacado na navbar.
 
+## Funcionalidades de Finalização de Compra com ViaCEP
+
+A plataforma Iara Games implementa uma funcionalidade de finalização de compra integrada à API pública ViaCEP. Após adicionar jogos ao carrinho, o usuário pode clicar no botão "Finalizar compra" para abrir um formulário de checkout em React.
+Nesse formulário o usuário informa o nome completo, a data de nascimento e o CEP. Ao clicar em “Buscar”, a aplicação realiza uma requisição à API ViaCEP e preenche automaticamente os campos de logradouro, bairro, cidade e UF.
+
